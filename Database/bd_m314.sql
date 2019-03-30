@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  ven. 14 déc. 2018 à 09:10
+-- Généré le :  sam. 30 mars 2019 à 10:37
 -- Version du serveur :  5.7.23
 -- Version de PHP :  7.2.10
 
@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS `products` (
   `final_price` varchar(255) NOT NULL,
   `stock` varchar(255) NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=63 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `products`
@@ -82,10 +82,11 @@ INSERT INTO `products` (`ID`, `title`, `slug`, `description`, `price`, `category
 (53, ' Crosscall Spider- X1 Noir Anti-Choc', 'crosscall-spider-x1-noir-anti-choc', 'Taille d\'écran : 1.77\"\r\nRésolution du capteur : 0,3 mégapixels\r\nComposants intégrés : Caméra arrière, radio FM\r\nCartes mémoire flash prises en charge : microSDHC - jusqu\'à 16 Go\r\nFonctions du téléphone : Téléphone à haut parleur, compteur d\'appels, vibreur\r\nCouleur du boitier : Noir', '54.93', 'Mobiles', '0', '5', '20', '71.916', '50'),
 (54, ' WIKO DEA Blanc', 'wiko-dea-blanc', 'Taille d\'écran : 2.8\"\r\nRésolution du capteur : 3.2 mégapixel\r\nComposants intégrés : Caméra arrière, radio FM, enregistreur vocal\r\nCartes mémoire flash prises en charge : microSDHC - jusqu\'à 16 Go\r\nFonctions du téléphone : Téléphone à haut parleur, compteur d\'appels, téléconférence, vibreur\r\nCouleur du boitier : Blanc', '39.99', 'Mobiles', '0', '5', '20', '53.988', '50'),
 (55, 'VKworld Pierre', 'vkworld-pierre', 'Téléphone IP67 étanche antipoussière 2,4 pouces', '35.00', 'Mobiles', '0', '5', '20', '48', '50'),
-(56, 'APPLE iPhone 5S 16 Go Argent 4G', 'apple-iphone-5s-16-go-argent-4g', 'Taille d\'écran : 4\"\r\nType : Apple A7\r\n4G\r\nRésolution du capteur : 8 mégapixels\r\nCapacité de la mémoire interne : 16 Go\r\nSystème d\'exploitation : iOS 7\r\nComposants intégrés : Caméra arrière, caméra avant, enregistreur vocal, navigation\r\nFonctions du téléphone : Téléphone à haut parleur, commande vocale, compteur d\'appels, téléconférence, numérotation vocale, vibreur', '329.00', 'Iphones', '0', '5', '20', '400.8', '50'),
-(57, ' APPLE iPhone 7 32 Go Argent', 'apple-iphone-7-32-go-argent', 'Taille d\'écran : 4.7\"\r\nType : Apple A10 Fusion\r\nQuadruple coeur\r\n4G\r\nRésolution du capteur : 12 mégapixels\r\nCapacité de la mémoire interne : 32 Go\r\nSystème d\'exploitation : iOS 10\r\nComposants intégrés : Caméra arrière, caméra avant, lecteur audio, enregistreur vocal, haut-parleurs stéréo, navigation', '739.00', 'Iphones', '0', '5', '20', '892.8', '50'),
-(59, ' APPLE iPhone 5S 32 Go Or 4G', 'apple-iphone-5s-32-go-or-4g', 'Taille d\'écran : 4\"\r\nType : Apple A7\r\n4G\r\nRésolution du capteur : 8 mégapixels\r\nCapacité de la mémoire interne : 32 Go\r\nSystème d\'exploitation : iOS 7\r\nComposants intégrés : Caméra arrière, caméra avant, enregistreur vocal, navigation\r\nFonctions du téléphone : Téléphone à haut parleur, commande vocale, compteur d\'appels, téléconférence, numérotation vocale, vibreur', '255.67', 'Iphones', '0', '5', '20', '312.804', '50'),
-(60, 'Apple iPhone 5S 32Go - Débloqué - Or', 'apple-iphone-5s-32go-dbloqu-or', 'L\'iPhone 5s est, sans surprise, le plus perfectionné des iPhone. Ici, ni grand écran HD ni puce quad-core ni NFC, et pas de capteur photo qui fait dans la surenchère de pixels', '349.90', 'Iphones', '0', '5', '20', '425.88', '50');
+(56, 'iPhone 5S 16 Go Argent', 'apple-iphone-5s-16-go-argent-4g', 'Taille d\'écran : 4.7 Type : Apple A10 Fusion Quadruple coeur 4G Résolution du capteur 12 mégapixels Capacité de la mémoire interne : 32 Go Système d\'exploitation : iOS 10 Composants intégrés : Caméra arrière, caméra avant, lecteur audio, enregistreur vocal, haut-parleurs stéréo, navigation', '329.00', 'Iphones', '0', '5', '20', '400.8', '50'),
+(57, 'iPhone 7 32 Go Argent', 'apple-iphone-7-32-go-argent', 'Taille d\'écran : 4.7 Type : Apple A10 Fusion Quadruple coeur 4G Résolution du capteur 12 mégapixels Capacité de la mémoire interne : 32 Go Système d\'exploitation : iOS 10 Composants intégrés : Caméra arrière, caméra avant, lecteur audio, enregistreur vocal, haut-parleurs stéréo, navigation', '739.00', 'Iphones', '0', '5', '20', '892.8', '45'),
+(59, 'iPhone 5S 32 Go Or 4G', 'apple-iphone-5s-32-go-or-4g', 'Taille d\'écran : 4.7 Type : Apple A10 Fusion Quadruple coeur 4G Résolution du capteur 12 mégapixels Capacité de la mémoire interne : 32 Go Système d\'exploitation : iOS 10 Composants intégrés : Caméra arrière, caméra avant, lecteur audio, enregistreur vocal, haut-parleurs stéréo, navigation', '255.67', 'Iphones', '0', '5', '20', '312.804', '50'),
+(61, 'Huawei Ascend P8', 'huawei-ascend-p8', 'Équipé d\'une puce octocœur de fabrication maison Kiron 930, aidé par une puce graphique Mali T628 et 3 Go de mémoire vive. Le P8 est pourvu d\'une batterie de 2 600 mAh non amovible et c\'est Android dans sa version 5.0 qui anime le tout.', '389.97', 'Smartphones', '100', '10', '20', '479.964', '24'),
+(62, 'Generic Nokia 3310', 'generic-nokia-3310', 'Un classique moderne complétement réinventé. Le nouveau Nokia 3310 emprunte la silhouette emblématique de l’original et la réinvente pour 2017. L\'interface utilisateur conçue sur mesure renouvelle totalement ce grand classique. Son écran polarisé et incurvé de 2,4 pouces facilite la lecture en plein soleil.', '60', 'Mobiles', '300', '15', '20', '90', '116');
 
 -- --------------------------------------------------------
 
@@ -123,6 +124,26 @@ CREATE TABLE IF NOT EXISTS `transactions` (
   `user_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `tva`
+--
+
+DROP TABLE IF EXISTS `tva`;
+CREATE TABLE IF NOT EXISTS `tva` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `montant` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `tva`
+--
+
+INSERT INTO `tva` (`id`, `montant`) VALUES
+(1, 20);
 
 -- --------------------------------------------------------
 
